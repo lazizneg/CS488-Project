@@ -1,0 +1,8 @@
+[ 39] local 10.0.0.1 port 35812 connected with 10.0.0.4 port 5566
+[ ID] Interval       Transfer     Bandwidth
+[ 39]  0.0-21.2 sec  51.5 MBytes  20.4 Mbits/sec
+
+[ 40] local 10.0.0.4 port 5566 connected with 10.0.0.1 port 35812
+[ ID] Interval       Transfer     Bandwidth
+[ 40]  0.0-23.7 sec  51.5 MBytes  18.2 Mbits/sec
+

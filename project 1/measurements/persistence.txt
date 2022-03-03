@@ -1,0 +1,3 @@
+The connection is non-persistent by default unless you add the 
+"Connection: keep-alive" header in the http request thus making it 
+persistent

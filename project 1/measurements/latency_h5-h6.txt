@@ -1,0 +1,7 @@
+[ 39] local 10.0.0.5 port 37490 connected with 10.0.0.6 port 5566
+[ ID] Interval       Transfer     Bandwidth
+[ 39]  0.0-20.3 sec  62.9 MBytes  26.0 Mbits/sec
+
+[ 40] local 10.0.0.6 port 5566 connected with 10.0.0.5 port 37490
+[ ID] Interval       Transfer     Bandwidth
+[ 40]  0.0-22.2 sec  62.9 MBytes  23.7 Mbits/sec

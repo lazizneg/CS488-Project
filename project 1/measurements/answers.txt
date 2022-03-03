@@ -1,0 +1,58 @@
+Q2.
+Now, assume h1 wants to communicate with h4.  What is the expected 
+latency and throughput of the path between the hosts? 
+
+Since h1 is in s1 and h4 is in h4 i assume there should not be any issues
+and the latency should be the same as I have in latency_L4 and 
+throughout_L4
+
+51.4 MBytes    --->  52.9 MBytes
+15.3 Mbits/sec  -->  18.4 Mbits/sec
+
+My predictions were on point. I believe that small differences may be due
+to traffic and not in my control 
+
+Q3.
+Next, assume multiple hosts connected to s1 want to simultaneously talk 
+to hosts connected to s4. What is the expected latency and throughput 
+when two pairs of hosts are communicating simultaneously? Three pairs? 
+
+As seen in the last question, I dont believe that running multiple pairs
+of connection should impact the latency or throughput. I will be using
+h1, h7 and h10 as they are from s1 and h4, h9 and h8 as they are from s4
+
+H1 - H4
+Transfer - 49.8 MBytes
+Bandwidth - 20.9 Mbits/sec 18 Mbits/sec
+
+H7 - H9
+Transfer - 6.12 MBytes/sec
+Bandwidth - 2.54 Mbits/sec 2.50 Mbits/sec
+
+H10 - H8
+Transfer - 42.7 MBytes/sec
+Bandwidth - 16.6 MBits/sec 14.5 MBits/sec
+
+Q4.
+Lastly, assume h1 wants to communicate with h4 at the same time h5 wants 
+to communicate with h6. What is the expected latency and throughput for 
+each pair? 
+
+h1 to h4 would go from s1 to s4
+h5 to h6 would go from s5 to s6
+
+I believe that it will take longer for h5-h6 as it has to go through both
+s2 and s3 as s5 is connected to s2 and s6 is connected to s3. But s1 to s4
+is a stiaght line
+
+H1 - H4
+Transfer - 51.5 MBytes
+Bandwidth - 20.4 Mbits/sec 18.2 Mbits/sec
+
+H5 - H6
+Transfer - 62.9 MBytes/sec
+Bandwidth - 26 Mbits/sec 23.7 Mbits/sec
+
+
+
+
